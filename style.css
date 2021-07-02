@@ -1,0 +1,51 @@
+.na1{
+    color: chocolate;
+    font-style: italic;
+}
+.na2{
+    color: chocolate;
+    font-style: italic;
+}
+.na3{
+opacity: 0;
+transition: opacity 1s linear;
+}
+.na3:hover{
+
+    opacity: .76;
+}
+.box_cont{
+    background-color: aqua;
+    width: 800px;
+    height: 100%;
+    position: relative;
+}
+.box1{
+background-color: rgb(182, 25, 25);
+width: 200px;
+height: 200px;
+margin: 1px;
+position: absolute;
+top: 0px;
+right: 0px;
+}
+.box2{
+    background-color: rgb(25, 182, 117);
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+    position: absolute;
+    top: 0px;
+right: 2px;
+
+    }
+    .box3{
+        background-color: rgb(106, 25, 182);
+        width: 200px;
+        height: 200px;
+        margin: 1px;
+        position: absolute;
+        top: 0px;
+right: 4px;
+
+        }
